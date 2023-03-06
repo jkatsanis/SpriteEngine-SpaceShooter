@@ -83,6 +83,9 @@
     <Filter Include="engine src\calculationComponents\rndm">
       <UniqueIdentifier>{77fca980-c59d-401d-b55e-846f9a9f280e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="engine src\engineComponents\Initializer">
+      <UniqueIdentifier>{25220bbe-5e33-4977-8f7f-6d021068a9bb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="engine\src\spriteComponents\boxCollider.cpp">
@@ -174,6 +177,18 @@
     </ClCompile>
     <ClCompile Include="engine\src\calculationComponents\srandom.cpp">
       <Filter>engine src\calculationComponents\rndm</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\src\engineComponents\initializer.cpp">
+      <Filter>engine src\engineComponents\Initializer</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\Scripts\ui.cpp">
+      <Filter>game src</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\Scripts\game.cpp">
+      <Filter>game src</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\Scripts\features.h">
+      <Filter>game src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -578,6 +593,18 @@
     </ClInclude>
     <ClInclude Include="engine\src\calculationComponents\srandom.h">
       <Filter>engine src\calculationComponents\rndm</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\src\engineComponents\initializer.h">
+      <Filter>engine src\engineComponents\Initializer</Filter>
+    </ClInclude>
+    <ClInclude Include="assets\Scripts\ui.h">
+      <Filter>game src</Filter>
+    </ClInclude>
+    <ClInclude Include="assets\Scripts\game.h">
+      <Filter>game src</Filter>
+    </ClInclude>
+    <ClInclude Include="assets\Scripts\playerController.h">
+      <Filter>game src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

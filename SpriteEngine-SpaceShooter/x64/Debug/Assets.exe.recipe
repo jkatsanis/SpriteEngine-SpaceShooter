@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Dev\MySpaceShooter\x64\Debug\Assets.exe</FullPath>
+      <FullPath>C:\Dev\MySpaceShooter\SpriteEngine-SpaceShooter\x64\Debug\Assets.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

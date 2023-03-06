@@ -3,6 +3,7 @@
 #include <_header/SpriteEngine.h>
 
 #include "laser.h"
+#include "playerController.h"
 
 class Movement : s2d::Base
 {
@@ -12,7 +13,6 @@ private:
 	void moveShip();
 
 public:
-	const static float SPEED;
 
    void update() override;
    void start() override;

@@ -10,20 +10,18 @@
 #include <imgui-SFML.h>
 #include <manager/GUIManager.h>
 #include <engineComponents/renderer.h>
+#include <features.h>
 
 //All user files
-#include "movement.h"
-#include "laser.h"
-#include "meteroid.h"
+
+#include "game.h"
 
 namespace s2d
 {
     class GameEngine
 	{
 		//User classes, only 1 instance
-		Movement movement;
-		Laser laser;
-		Meteroid meteroid;
+		Game game;
 
 		s2d::Renderer m_renderer;
 

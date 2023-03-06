@@ -181,6 +181,10 @@
     <ClCompile Include="engine\src\engineComponents\renderer.cpp" />
     <ClCompile Include="assets\Scripts\meteroid.cpp" />
     <ClCompile Include="engine\src\calculationComponents\srandom.cpp" />
+    <ClCompile Include="engine\src\engineComponents\initializer.cpp" />
+    <ClCompile Include="assets\Scripts\ui.cpp" />
+    <ClCompile Include="assets\Scripts\game.cpp" />
+    <ClCompile Include="assets\Scripts\features.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="assets\Scripts\laser.h" />
@@ -218,6 +222,9 @@
     <ClInclude Include="engine\src\engineComponents\renderer.h" />
     <ClInclude Include="assets\Scripts\meteroid.h" />
     <ClInclude Include="engine\src\calculationComponents\srandom.h" />
+    <ClInclude Include="engine\src\engineComponents\initializer.h" />
+    <ClInclude Include="assets\Scripts\game.h" />
+    <ClInclude Include="assets\Scripts\playerController.h" />
     <ClInclude Include="src\libraries\include\SFML\Audio.hpp" />
     <ClInclude Include="src\libraries\include\SFML\Audio\AlResource.hpp" />
     <ClInclude Include="src\libraries\include\SFML\Audio\Export.hpp" />
@@ -317,6 +324,7 @@
     <ClInclude Include="src\libraries\include\SFML\Window\WindowHandle.hpp" />
     <ClInclude Include="src\libraries\include\SFML\Window\WindowStyle.hpp" />
     <ClInclude Include="engine\src\engineComponents\sTime.h" />
+    <ClInclude Include="assets\Scripts\ui.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\libraries\include\SFML\Audio\SoundFileFactory.inl" />

@@ -14,25 +14,19 @@ void Movement::moveShip()
 {
 	if (s2d::Input::onKeyHold(s2d::KeyBoardCode::A))
 	{
-		this->m_ptr_ship->transform.position.x -= Movement::SPEED * s2d::Time::deltaTime;
+		this->m_ptr_ship->transform.position.x -= PLAYER_SPEED * s2d::Time::deltaTime;
 	}
 	if (s2d::Input::onKeyHold(s2d::KeyBoardCode::D))
 	{
-		this->m_ptr_ship->transform.position.x += Movement::SPEED * s2d::Time::deltaTime;
+		this->m_ptr_ship->transform.position.x += PLAYER_SPEED * s2d::Time::deltaTime;
 	}
-	//if (s2d::Input::onKeyHold(s2d::KeyBoardCode::W))
-	//{
-	//	this->m_ptr_ship->transform.position.y += Movement::SPEED * s2d::Time::deltaTime;
-	//}
-	//if (s2d::Input::onKeyHold(s2d::KeyBoardCode::S))
-	//{
-	//	this->m_ptr_ship->transform.position.y -= Movement::SPEED * s2d::Time::deltaTime;
-	//}
-	//if (s2d::Input::onKeyHold(s2d::KeyBoardCode::C))
-	//{
-	//	s2d::Sprite* scaled = s2d::Sprite::getSpriteByName("Sprite 3 id: 6");
-	//	scaled->transform.setScale(s2d::Vector2(5, 1));
-	//}
+	
+	if (s2d::Input::onKeyHold(s2d::KeyBoardCode::W))
+	{
+		this->m_ptr_ship->transform.position.y += PLAYER_SPEED * s2d::Time::deltaTime;
+	}
+	if (s2d::Input::onKeyHold(s2d::KeyBoardCode::S))
+	{
+		this->m_ptr_ship->transform.position.y -= PLAYER_SPEED * s2d::Time::deltaTime;
+	}
 }
-
-const float Movement::SPEED = 800;
